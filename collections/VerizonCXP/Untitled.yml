@@ -1,0 +1,30 @@
+info:
+  name: Untitled
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://squidproxy.reflectsystems.com:8080/api/VerizonCXP/getQualifiedCardsAndMenusCRI
+  headers:
+    - name: User-Agent
+      value: RVFeedSource.VerizonCXP/8.1.1
+    - name: channelid
+      value: OMNI-RETAIL
+    - name: Accept
+      value: application/json
+  body:
+    type: json
+    data: |
+      {
+        "criLocation":"WCA10579",
+        "isHardCoded":"false"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: true
