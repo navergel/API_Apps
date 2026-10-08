@@ -4,7 +4,7 @@ variables:
     value: squidproxy.reflectsystems.com:8080
     description: ""
   - name: username
-    value: joeblow
+    value: joeblow2
     description: ""
   - name: account
     value: QA1
