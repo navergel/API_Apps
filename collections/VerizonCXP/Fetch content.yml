@@ -1,11 +1,11 @@
 info:
-  name: Untitled
+  name: Fetch content
   type: http
   seq: 1
 
 http:
   method: POST
-  url: http://squidproxy.reflectsystems.com:8080/api/VerizonCXP/getQualifiedCardsAndMenusCRI
+  url: http://{{baseUrl}}/api/VerizonCXP/getQualifiedCardsAndMenusCRI
   headers:
     - name: User-Agent
       value: RVFeedSource.VerizonCXP/8.1.1

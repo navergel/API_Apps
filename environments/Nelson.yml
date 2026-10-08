@@ -1,0 +1,13 @@
+name: Nelson
+variables:
+  - name: baseUrl
+    value: squidproxy.reflectsystems.com:8080
+    description: ""
+  - name: username
+    value: joeblow
+    description: ""
+  - name: account
+    value: QA1
+    description: ""
+  - secret: true
+    name: password

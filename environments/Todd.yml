@@ -1,0 +1,13 @@
+name: Todd
+variables:
+  - name: baseUrl
+    value: ""
+  - name: username
+    value: ""
+  - name: account
+    value: ""
+  - name: name
+    value: ""
+  - secret: true
+    name: password
+    description: ""
